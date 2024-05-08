@@ -1,6 +1,5 @@
 - 👋 Hi, I’m Arslan
 - 👀 I’m interested in Web Development and Cybersecurity
-- 🌱 I’m currently learning Linux
 
 <!---
 arslanAta/arslanAta is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
