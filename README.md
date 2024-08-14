@@ -31,7 +31,9 @@ You can click the Preview link to take a look at your changes.
           
 </div>
 
-</td><td valign="top" width="33%">
+</td>
+</tr>
+</table>
 <br>
 <a href="https://t.me/incognito_7077" target="_blank">
   <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Telegram&color=26A5E4&logo=Telegram&logoColor=FFFFFF&label=" target="_blank">
