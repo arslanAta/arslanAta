@@ -3,13 +3,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arslanata&label=Profile%20views&color=0e75b6&style=flat" alt="arslanata" /> </p>
 
-- 🔭 I’m currently working on **React app**
+- 🔭 I’m currently working on **React/Vue app**
 
-- 🌱 I’m currently learning **React,Python**
+- 🌱 I’m currently learning **Python,Cybersecurity**
 
-- 🤝 I’m looking for help with **React development**
-
-- 👨‍💻 All of my projects are available at [https://arslanata.github.io/portfolio/](https://arslanata.github.io/portfolio/)
+- 🤝 I’m looking for help with **React and Vue development**
 
 - 📫 How to reach me **arsyakmar@gmail.com**
 
