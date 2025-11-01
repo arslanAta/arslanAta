@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi, I'm Arslan</h1>
-<h3 align="center">Front-End Developer • React | Vue | FastAPI | Docker</h3>
+<h3 align="center">Front-End Developer • React | Vue | FastAPI | Docker | Ubuntu</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=arslanata&label=Profile%20Views&color=0e75b6&style=flat" alt="arslanata" />
@@ -9,11 +9,12 @@
 
 ### 🧠 About Me
 
-- 🔭 Building modern apps with **React** & **Vue**
-- ⚙️ Backend side with **FastAPI**
-- 🐳 Deploying using **Docker + Nginx**
-- 🌱 Learning **Cybersecurity** & **Server Optimization**
-- 📫 Contact: **arsyakmar@gmail.com**
+- 🔭 Building modern web apps with **React / Vue**
+- ⚙️ Backend development using **FastAPI**
+- 🐳 Deploying and managing apps via **Docker + Nginx**
+- 💻 Experienced with **Ubuntu Server Administration**
+- 🌱 Learning **Cybersecurity** and **System Hardening**
+- 📫 Contact me at: **arsyakmar@gmail.com**
 
 ---
 
@@ -35,15 +36,20 @@
 
 ---
 
-### 🐳 Deployment & DevOps
+### 🐧 Ubuntu & Docker Skills
 
-I use **Docker containers** for both frontend and backend, with **Nginx** as a reverse proxy.  
-Here’s a simplified structure of my typical setup:
+🧩 **Server OS:** Ubuntu 20.04 / 22.04 LTS  
+⚙️ **Deployment Flow:**  
+- Docker multi-stage builds (frontend + backend)  
+- Nginx reverse proxy with SSL and caching  
+- Uvicorn + FastAPI backend inside Docker  
+- Static assets served by Nginx  
+- Auto-restart containers via `docker compose up -d`  
 
 ```bash
-📦 app/
- ┣ 📁 frontend/   # React or Vue build
- ┣ 📁 backend/    # FastAPI app (with uvicorn)
- ┣ 📄 Dockerfile  # Multi-stage build
+📦 my_project/
+ ┣ 📁 frontend/   # React or Vue build output
+ ┣ 📁 backend/    # FastAPI app (Uvicorn)
+ ┣ 📄 Dockerfile
  ┣ 📄 docker-compose.yml
- ┗ 📄 nginx.conf  # Reverse proxy & static serving
+ ┗ 📄 nginx.conf
