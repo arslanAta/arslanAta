@@ -10,7 +10,7 @@
 ### 🧠 About Me
 
 - 🔭 Building modern web apps with **React / Vue**
-- ⚙️ Backend development using **FastAPI**
+- ⚙️ Backend development using **FastAPI**/ **Django+REST**
 - 🐳 Deploying and managing apps via **Docker + Nginx**
 - 💻 Experienced with **Ubuntu Server Administration**
 - 🌱 Learning **Cybersecurity** and **System Hardening**
@@ -35,16 +35,6 @@
 </p>
 
 ---
-
-### 🐧 Ubuntu & Docker Skills
-
-🧩 **Server OS:** Ubuntu 20.04 / 22.04 LTS  
-⚙️ **Deployment Flow:**  
-- Docker multi-stage builds (frontend + backend)  
-- Nginx reverse proxy with SSL and caching  
-- Uvicorn + FastAPI backend inside Docker  
-- Static assets served by Nginx  
-- Auto-restart containers via `docker compose up -d`  
 
 ```bash
 📦 my_project/
