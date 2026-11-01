@@ -1,7 +1,17 @@
-<h1 align="center">Hi, I'm Arslan</h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:8957e5&height=200&section=header&text=Hi,%20I'm%20Arslan&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%86%92%20Cybersecurity&descSize=20&descAlignY=60&animation=fadeIn" />
+
 <p align="center">
-  <b>Full-Stack Developer → Cybersecurity</b><br/>
-  I build production systems end to end — and I want to know exactly how they break.
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=Building+production+POS+systems+end+to+end;Django+%C2%B7+Vue+3+%C2%B7+Flutter+%C2%B7+Go;Hardening+the+Linux+servers+I+deploy+to;On+my+way+to+cybersecurity" />
+</p>
+
+<p align="center">
+  <i>I build production systems end to end — and I want to know exactly how they break.</i>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/arslan-atayew-86b965304/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:arsyakmar@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Open_to-Opportunities-2ea44f?style=for-the-badge" />
 </p>
 
 ---
