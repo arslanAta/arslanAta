@@ -1,85 +1,113 @@
-<h1 align="center">👋 Hi, I'm Arslan</h1>
-<h3 align="center">Full-Stack Developer & DevOps Enthusiast | Cybersecurity Learner</h3>
-
+<h1 align="center">Hi, I'm Arslan</h1>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=arslanata&label=Profile%20Views&color=0e75b6&style=flat" alt="arslanata" />
+  <b>Full-Stack Developer → Cybersecurity</b><br/>
+  I build production systems end to end — and I want to know exactly how they break.
 </p>
 
 ---
 
-### 🧠 About Me
+## About Me
 
-- ⚛️ Building modern web apps with **React** & **Vue.js** *(Intermediate)*
-- 🐍 Backend development with **FastAPI** and **Django REST Framework**
-- 📱 Currently learning **Flutter** for cross-platform mobile development
-- 🐳 **1+ year** deploying & managing apps on **Ubuntu VPS** with Docker + Nginx
-- 🔐 Actively learning **Cybersecurity** & **Penetration Testing**
-- 💻 Comfortable with **Linux system administration** & server hardening
-- 📫 Reach me at: **arsyakmar@gmail.com**
+I design, build, deploy and secure real-world software for businesses: from Django backends and Vue frontends to Flutter mobile apps, hardware integrations and the Linux servers they run on.
+Shipping and maintaining production systems taught me where things go wrong — that's what pulls me toward **cybersecurity**, where I'm heading next.
 
 ---
 
-### 🌐 Connect with Me
+## Flagship: POS Ecosystem
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/arslan-atayew-86b965304/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/>
-  </a>
-</p>
+A complete automation platform for a multi-brand café & restaurant chain, running in production every day.
 
----
+| Part | What it does | Stack |
+|------|--------------|-------|
+| **POS** | Touch-screen point-of-sale for cashiers: orders, payments, discounts, receipts | Django · Celery · Vue 3 · TypeScript |
+| **Manager Panel** | Warehouse & inventory, recipes and tech cards, write-offs, reports, multi-brand menus | Django REST · Vue 3 · TypeScript |
+| **Mobile Apps (5)** | Client app, delivery app, waiter app, director app, digital menu | Flutter · Dart |
+| **FaceID Attendance** | Employee check-in by face recognition | Django |
+| **Print Agent** | Local agent for receipt & label printing, versioned releases | Python |
+| **Brand Websites** | Public websites for each brand | React · Vite · Tailwind |
 
-### ⚙️ Tech Stack
-
-**Frontend**
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,redux,tailwind" />
-</p>
-
-**Backend**
-<p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,django" />
-</p>
-
-**DevOps & Infrastructure**
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,nginx,linux,git" />
-</p>
-
-**Currently Learning**
-<p>
-  <img src="https://skillicons.dev/icons?i=flutter,dart" />
-</p>
+> Private codebase — happy to walk through the architecture in an interview.
 
 ---
 
-### 🔐 Cybersecurity Interests
+## Selected Projects
 
-- 🕵️ Penetration Testing & Ethical Hacking
-- 🛡️ System Hardening & Server Security
-- 🌐 Web Application Security
-- 📚 Studying: **TryHackMe / HackTheBox** *(tools: nmap, Burp Suite, Metasploit)*
+- **[Vienna Cars](https://vienna-cars.at)** — bilingual (EN/DE) luxury car rental platform with its own admin panel.
+- **[Cedar Mining](https://cedarmining.com)** — corporate website for a mining company.
+- **Technohaus** — landing page for an electronics & home-tech brand.
+- **Laurastar** — product landing page for a premium garment-care brand.
 
 ---
 
-### 🚀 Deployment Setup
+## Security
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ Defense — in production
+
+Every server I run is hardened by me:
 
 ```bash
-📦 my_project/
- ┣ 📁 frontend/        # React or Vue build output
- ┣ 📁 backend/         # FastAPI app (Uvicorn)
- ┣ 📄 Dockerfile
- ┣ 📄 docker-compose.yml
- ┗ 📄 nginx.conf       # Reverse proxy + SSL
+$ ./server-audit.sh
+[✔] SSH        key-only authentication
+[✔] Firewall   ufw, minimal open ports
+[✔] fail2ban   brute-force protection
+[✔] TLS        Let's Encrypt via certbot
+[✔] Backups    regular database dumps
 ```
 
-> 🖥️ Hosted on **Ubuntu VPS** — 1+ year of hands-on deployment experience
+</td>
+<td width="50%" valign="top">
+
+### ⚔️ Offense — learning
+
+Hands-on practice on **TryHackMe**:
+
+- 🌐 Web application pentesting
+- 🔎 Reconnaissance & scanning
+- 💥 Exploitation basics
+
+<p>
+  <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logoColor=white" />
+</p>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 📊 GitHub Stats
+## Where I'm Going
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arslanata&show_icons=true&theme=tokyonight&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arslanata&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
-</p>
+My goal is to become a **security specialist**. Next steps:
+- Keep progressing on TryHackMe and start HackTheBox
+- Focus on web application security — the area I know best as a developer
+- Earn my first security certification
+
+---
+
+## Tech Stack
+
+**Backend**
+<p><img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis" /></p>
+
+**Frontend**
+<p><img src="https://skillicons.dev/icons?i=vue,react,ts,js,tailwind,vite" /></p>
+
+**Mobile**
+<p><img src="https://skillicons.dev/icons?i=flutter,dart" /></p>
+
+**DevOps & Security**
+<p><img src="https://skillicons.dev/icons?i=linux,ubuntu,docker,nginx,bash,git,kali" /></p>
+
+---
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/arslan-atayew-86b965304/) · arsyakmar@gmail.com
