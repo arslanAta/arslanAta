@@ -13,20 +13,87 @@ Shipping and maintaining production systems taught me where things go wrong — 
 
 ---
 
-## Flagship: POS Ecosystem
+## 🏗️ Flagship: POS Ecosystem
 
-A complete automation platform for a multi-brand café & restaurant chain, running in production every day.
+<p align="center">
+  <i>A complete automation platform for a multi-brand café & restaurant chain — running in production every day.</i>
+</p>
 
-| Part | What it does | Stack |
-|------|--------------|-------|
-| **POS** | Touch-screen point-of-sale for cashiers: orders, payments, discounts, receipts | Django · Celery · Vue 3 · TypeScript |
-| **Manager Panel** | Warehouse & inventory, recipes and tech cards, write-offs, reports, multi-brand menus | Django REST · Vue 3 · TypeScript |
-| **Mobile Apps (5)** | Client app, delivery app, waiter app, director app, digital menu | Flutter · Dart |
-| **FaceID Attendance** | Employee check-in by face recognition | Django |
-| **Print Agent** | Local agent for receipt & label printing, versioned releases | Python |
-| **Brand Websites** | Public websites for each brand | React · Vite · Tailwind |
+<p align="center">
+  <img src="https://img.shields.io/badge/status-in_production-2ea44f?style=flat-square" />
+  <img src="https://img.shields.io/badge/components-6-0e75b6?style=flat-square" />
+  <img src="https://img.shields.io/badge/mobile_apps-5-02569B?style=flat-square&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/brands-multi-8957e5?style=flat-square" />
+  <img src="https://img.shields.io/badge/code-private-555?style=flat-square" />
+</p>
 
-> Private codebase — happy to walk through the architecture in an interview.
+```mermaid
+flowchart LR
+    Mobile["📱 5 Flutter Apps"] --> Manager
+    Web["🌐 Brand Websites"] --> Manager
+    FaceID["👤 FaceID Attendance"] --> Manager
+    Manager["📊 Manager Panel<br/>Django REST · Vue 3"] <--> POS["🖥️ POS<br/>Django · Vue 3"]
+    Manager --> Print["🖨️ Print Agent<br/>Go"]
+    Manager --- Data[("PostgreSQL · Redis · Celery")]
+    POS --- Data
+```
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🖥️ POS
+Touch-screen point-of-sale for cashiers: orders, payments, discounts, receipts.
+
+`Django` `Celery` `Vue 3` `TypeScript`
+
+</td>
+<td width="33%" valign="top">
+
+#### 📊 Manager Panel
+Warehouse & inventory, recipes and tech cards, write-offs, reports, multi-brand menus.
+
+`Django REST` `Vue 3` `TypeScript`
+
+</td>
+<td width="33%" valign="top">
+
+#### 📱 Mobile Apps
+Five apps: client, delivery, waiter, director and digital menu.
+
+`Flutter` `Dart`
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+#### 👤 FaceID Attendance
+Employee check-in by face recognition, synced with the manager panel.
+
+`Django`
+
+</td>
+<td width="33%" valign="top">
+
+#### 🖨️ Print Agent
+Tiny Windows agent (down to Win 7) that sends labels from the browser straight to the printer. Built by GitHub Actions, releases with SHA-256 checksums.
+
+`Go` `GitHub Actions`
+
+</td>
+<td width="33%" valign="top">
+
+#### 🌐 Brand Websites
+Public websites for each brand of the chain.
+
+`React` `Vite` `Tailwind`
+
+</td>
+</tr>
+</table>
+
+> 🔒 Private codebase — happy to walk through the architecture in an interview.
 
 ---
 
