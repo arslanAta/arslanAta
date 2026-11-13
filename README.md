@@ -116,6 +116,32 @@ Public websites for each brand of the chain.
 
 ---
 
+## 🧪 Hobby Project: Arduino Simulator
+
+<p align="center">
+  <a href="https://arslanata.github.io/web-arduino-simulator/">
+    <img src="https://raw.githubusercontent.com/arslanAta/web-arduino-simulator/gh-pages/banner-en.svg" alt="Arduino Simulator — build circuits, write code, just like a real board" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://arslanata.github.io/web-arduino-simulator/"><img src="https://img.shields.io/badge/▶_Try_it_live-15803d?style=for-the-badge" /></a>
+  <a href="https://github.com/arslanAta/web-arduino-simulator"><img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Built_with-Claude_Fable_5.2-d97757?style=for-the-badge" />
+</p>
+
+A virtual electronics lab that runs in the browser. Place parts on a breadboard, wire them to an Arduino, write real Arduino code and watch the circuit behave the way it would on a desk — including the mistakes: an LED without a resistor burns out.
+
+- 🔌 **Circuit editor** — breadboards, realistic wires, dozens of parts: displays, sensors, servos, motors, NeoPixels
+- 💻 **Real firmware** — sketches are compiled by `arduino-cli` and run on a cycle-accurate AVR emulator (Uno, Nano, Mega)
+- 📈 **Instruments** — serial monitor, multimeter, oscilloscope and logic analyser
+- 🚀 **54 ready-made examples** — from a blinking LED to a weather station
+- 🔒 **Sandboxed compile server** — untrusted code is built in a container with no network, no privileges and a read-only filesystem
+
+`React` `TypeScript` `Vite` `avr8js` `FastAPI` `PostgreSQL` `Redis` `Docker`
+
+---
+
 ## Security
 
 <table>
